@@ -1,0 +1,61 @@
+@import "../../assets/scss/partials/params";
+
+.lastPage_content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 64px;
+	letter-spacing: 27px;
+	font-weight: 700;
+	background-color: $font-color;
+	color: white;
+	font-feature-settings: 'case' on;
+	text-transform: uppercase;
+	@media screen and (max-width: 680px) {
+		font-size: 9vw;
+		letter-spacing: 11.5px;
+	}
+	.thanks_text {
+		position: relative;
+		.star1 {
+			max-width: 52px;
+			height: auto;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			transform: translateX(-50%) scale(0);
+			transition: 0.5s ease-in;
+			&.show_star1 {
+				top: -73px;
+				left: 22px;
+				transform: scale(1);
+				@media screen and (max-width: 680px) {
+					top: -15vw;
+					width: 10vw;
+					left: 2vw;
+				}
+			}
+		}
+		.star2 {
+			width: 33px;
+			height: auto;
+			position: absolute;
+			top: 0;
+			right: 50%;
+			transform: translateX(-50%) scale(0);
+			transition: 0.5s ease-in;
+			&.show_star2 {
+				top: 69px;
+				right: 56px;
+				transform: scale(1);
+				@media screen and (max-width: 680px) {
+					right: 3vw;
+					width: 30px;
+					top: 12vw;
+				}
+			}
+		}
+	}
+}

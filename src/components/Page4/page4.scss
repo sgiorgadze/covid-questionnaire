@@ -1,0 +1,57 @@
+.head_text {
+	margin-bottom: 40px;
+	p {
+		margin-bottom: 20px;
+		line-height: 1.3;
+	}
+}
+.chechkbox_block {
+	margin-bottom: 30px;
+	textarea {
+		height: 180px;
+		width: 100%;
+	}
+}
+
+.finish_btn {
+	height: 56px;
+	width: 180px;
+	margin-bottom: 40px;
+	padding: 0 10px;
+	background-color: #208298;
+	font: inherit;
+	color: white;
+	font-size: 18px;
+	float: right;
+	border-radius: 42px;
+	font-feature-settings: 'case' on;
+	text-transform: uppercase;
+	&.disabled {
+		opacity: 0.4;
+	}
+	@media screen and (max-width: 425px) {
+		margin-bottom: 0;
+	}
+}
+
+.user {
+	// background: url("/assets/img/vaccinate2.png") no-repeat, url("/assets/img/main logo-ball.png") no-repeat;
+	// // background-position: 0px 162px;
+	// // background-size: 100% 100%;
+
+	.heart {
+		width: 30%;
+		position: absolute;
+		top: -192px;
+		left: -100px;
+		transform: scale(0);
+		z-index: 2;
+		transition: 0.5s ease-in;
+		opacity: 0.8;
+		&.show_heart {
+			transform: scale(1);
+			left: 12%;
+			top: 8%;
+		}
+	}
+}

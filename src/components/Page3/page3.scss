@@ -1,0 +1,52 @@
+.reg_link_content {
+	margin: 40px 0 0 40px;
+	p {
+		margin-bottom: 5px !important;
+	}
+}
+.link {
+	color: #1289ae;
+	font-size: 16px;
+	&.dontPlan {
+		margin-left: 30px;
+	}
+}
+.dont_plan_blocks {
+	margin-bottom: 30px;
+}
+.vacInfo {
+	margin-left: 30px;
+	p {
+		font-weight: normal !important;
+		margin-bottom: 30px;
+		line-height: 1.3;
+		&.text {
+			margin-bottom: 5px !important;
+		}
+	}
+}
+
+.user {
+	// background: url("/assets/img/vaccinate2.png") no-repeat, url("/assets/img/main logo-ball.png") no-repeat;
+	// // background-position: 0px 162px;
+	// // background-size: 100% 100%;
+
+	.star {
+		width: 30%;
+		position: absolute;
+		top: 24%;
+		transform: scale(0);
+		left: -220px;
+		//left: -250px;
+		//height: 0px;
+		//width: 2vw;
+		z-index: 2;
+		transition: 0.5s ease-in;
+		opacity: 0.8;
+		&.show_star {
+			transform: scale(1);
+			left: 7%;
+			top: 0;
+		}
+	}
+}

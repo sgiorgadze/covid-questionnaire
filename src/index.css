@@ -1,0 +1,35 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+#root {
+	height: 100%;
+}
+@font-face {
+	font-family: fira-reg;
+	src: url('./assets/fonts/FiraGO-Regular.eot');
+	src: url('./assets/fonts/FiraGO-Regular.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/FiraGO-Regular.woff2') format('woff2'),
+		url('./assets/fonts/FiraGO-Regular.woff') format('woff'),
+		url('./assets/fonts/FiraGO-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: fira-semi;
+	src: url('./assets/fonts/FiraGO-SemiBold.eot');
+	src: url('./assets/fonts/FiraGO-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('./assets/fonts/FiraGO-SemiBold.woff2') format('woff2'),
+		url('./assets/fonts/FiraGO-SemiBold.woff') format('woff'),
+		url('./assets/fonts/FiraGO-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+}

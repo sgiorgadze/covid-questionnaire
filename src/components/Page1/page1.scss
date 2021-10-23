@@ -1,0 +1,43 @@
+.attention_block {
+	padding: 61px 0;
+	@media screen and (max-width: 768px) {
+		padding: 40px 0;
+	}
+	@media screen and (max-width: 375px) {
+		padding: 20px 0 40px;
+		font-size: 12px;
+	}
+	p {
+		position: relative;
+		display: inline-block;
+		padding: 16px 0;
+		color: #626262;
+		line-height: 1.3;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			width: 90%;
+			height: 1px;
+			border-top: 0.8px solid #626262;
+		}
+	}
+}
+
+.user {
+	z-index: 3;
+	position: relative;
+}
+.shadow {
+	position: absolute;
+	top: 27%;
+	left: -650px;
+	transform: scale(0);
+	z-index: 2;
+	transition: 0.5s ease-in;
+	opacity: 0.8;
+	&.show {
+		left: 0;
+		transform: scale(1);
+	}
+}

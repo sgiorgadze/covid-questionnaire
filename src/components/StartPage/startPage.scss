@@ -1,0 +1,23 @@
+.start_page_wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.main_logo {
+		width: 100px;
+		height: 100px;
+	}
+	.start_link {
+		margin-top: 50px;
+		font-size: 30px;
+		font-feature-settings: 'case' on;
+		text-transform: uppercase;
+		text-align: center;
+		line-height: 1.3;
+		&:hover {
+			font-weight: 700;
+			text-shadow: 2px 2px#b9b9b9;
+		}
+	}
+}
