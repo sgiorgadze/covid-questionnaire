@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/covid-questionnaire/static/css/main.a47a6bcf.chunk.css",
-    "main.js": "/covid-questionnaire/static/js/main.bb8b8b0b.chunk.js",
-    "main.js.map": "/covid-questionnaire/static/js/main.bb8b8b0b.chunk.js.map",
+    "main.js": "/covid-questionnaire/static/js/main.359f785c.chunk.js",
+    "main.js.map": "/covid-questionnaire/static/js/main.359f785c.chunk.js.map",
     "runtime-main.js": "/covid-questionnaire/static/js/runtime-main.49f06347.js",
     "runtime-main.js.map": "/covid-questionnaire/static/js/runtime-main.49f06347.js.map",
     "static/js/2.f8cd1889.chunk.js": "/covid-questionnaire/static/js/2.f8cd1889.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.49f06347.js",
     "static/js/2.f8cd1889.chunk.js",
     "static/css/main.a47a6bcf.chunk.css",
-    "static/js/main.bb8b8b0b.chunk.js"
+    "static/js/main.359f785c.chunk.js"
   ]
 }
