@@ -33,11 +33,14 @@ const Recommendations = ({ history }) => {
 	};
 
 	let onlineMeetings = '';
+	let workDayInOffice = '';
 	const handleRadioButton = (e) => {
 		if (e.target.name === 'onlineMeetings') {
 			onlineMeetings = 'onlineMeetings';
+		} else if (e.target.name === 'workDayInOffice') {
+			workDayInOffice = 'workDayInOffice';
 		}
-		if (onlineMeetings && e.target.name === 'workDayInOffice') {
+		if (onlineMeetings && workDayInOffice) {
 			setDisableButton(true);
 		}
 	};
